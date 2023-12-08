@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-RegainApp-RegainAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RegainApp-RegainAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		4082345922864FDF9665D54B /* Dosis-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4904E126414D129F2A94B6 /* Dosis-Bold.ttf */; };
+		86931BF90A334DB6A3E61A5E /* Dosis-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E270F0A86AC4467AB7A7FF67 /* Dosis-ExtraBold.ttf */; };
+		B1C463D58C764096B72E88F8 /* Dosis-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58AB1F5E3BE04BF6897F3C16 /* Dosis-ExtraLight.ttf */; };
+		C5E6FC5FB40D4635A72F7A2A /* Dosis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 190C33E637A2427680DEE675 /* Dosis-Light.ttf */; };
+		9F0298F18922426F9FD34CC6 /* Dosis-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8164A2B022D0403291C6D72D /* Dosis-Medium.ttf */; };
+		0E83F49D9E29469BB4A6BB65 /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB05E20B89A2456FA3A8AE9B /* Dosis-Regular.ttf */; };
+		C6ED465711864234B1B8FC1C /* Dosis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB1E348EED5C418AAD75F838 /* Dosis-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RegainApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RegainApp-RegainAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RegainApp-RegainAppTests.release.xcconfig"; path = "Target Support Files/Pods-RegainApp-RegainAppTests/Pods-RegainApp-RegainAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		4C4904E126414D129F2A94B6 /* Dosis-Bold.ttf */ = {isa = PBXFileReference; name = "Dosis-Bold.ttf"; path = "../assets/fonts/Dosis-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E270F0A86AC4467AB7A7FF67 /* Dosis-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Dosis-ExtraBold.ttf"; path = "../assets/fonts/Dosis-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58AB1F5E3BE04BF6897F3C16 /* Dosis-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Dosis-ExtraLight.ttf"; path = "../assets/fonts/Dosis-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		190C33E637A2427680DEE675 /* Dosis-Light.ttf */ = {isa = PBXFileReference; name = "Dosis-Light.ttf"; path = "../assets/fonts/Dosis-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8164A2B022D0403291C6D72D /* Dosis-Medium.ttf */ = {isa = PBXFileReference; name = "Dosis-Medium.ttf"; path = "../assets/fonts/Dosis-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB05E20B89A2456FA3A8AE9B /* Dosis-Regular.ttf */ = {isa = PBXFileReference; name = "Dosis-Regular.ttf"; path = "../assets/fonts/Dosis-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB1E348EED5C418AAD75F838 /* Dosis-SemiBold.ttf */ = {isa = PBXFileReference; name = "Dosis-SemiBold.ttf"; path = "../assets/fonts/Dosis-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +136,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				093C7238DF154A3082F80808 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +162,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		093C7238DF154A3082F80808 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				4C4904E126414D129F2A94B6 /* Dosis-Bold.ttf */,
+				E270F0A86AC4467AB7A7FF67 /* Dosis-ExtraBold.ttf */,
+				58AB1F5E3BE04BF6897F3C16 /* Dosis-ExtraLight.ttf */,
+				190C33E637A2427680DEE675 /* Dosis-Light.ttf */,
+				8164A2B022D0403291C6D72D /* Dosis-Medium.ttf */,
+				DB05E20B89A2456FA3A8AE9B /* Dosis-Regular.ttf */,
+				CB1E348EED5C418AAD75F838 /* Dosis-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +273,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4082345922864FDF9665D54B /* Dosis-Bold.ttf in Resources */,
+				86931BF90A334DB6A3E61A5E /* Dosis-ExtraBold.ttf in Resources */,
+				B1C463D58C764096B72E88F8 /* Dosis-ExtraLight.ttf in Resources */,
+				C5E6FC5FB40D4635A72F7A2A /* Dosis-Light.ttf in Resources */,
+				9F0298F18922426F9FD34CC6 /* Dosis-Medium.ttf in Resources */,
+				0E83F49D9E29469BB4A6BB65 /* Dosis-Regular.ttf in Resources */,
+				C6ED465711864234B1B8FC1C /* Dosis-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
